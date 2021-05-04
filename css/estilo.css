@@ -1,0 +1,180 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+body {
+  font-family: 'Kumbh Sans', sans-serif; }
+
+header {
+  display: flex;
+  background-color: black;
+  align-items: center;
+  justify-content: space-between;
+  height: 7vh;
+  padding: 12px;
+  position: fixed;
+  width: 100%; }
+
+a.nav__logo {
+  font-size: 1em;
+  font-weight: bold;
+  color: white;
+  padding: 0 50px 0 50px; }
+
+nav {
+  margin-right: n 20px; }
+
+.nav__ul {
+  margin: 0;
+  z-index: 60;
+  padding-left: 0; }
+
+ul.nav__ul {
+  font-size: .8em;
+  display: flex;
+  list-style: none;
+  color: #ffffff; }
+
+ul {
+  padding: 0; }
+
+a:link {
+  text-decoration: none; }
+
+li.nav__li {
+  padding: 10px;
+  transition: 0.3s; }
+
+li.nav__li:hover {
+  background-color: black;
+  border-radius: 5px; }
+
+ul.nav__ul ul {
+  position: absolute;
+  display: none; }
+
+ul.nav__ul ul li {
+  font-size: 1em;
+  display: block;
+  padding: 10px;
+  background-color: black;
+  width: 250px;
+  margin-left: -9px; }
+
+ul.nav__ul ul li:hover {
+  background-color: black;
+  color: white;
+  transition: 0.1s; }
+
+ul.nav__ul li:hover ul {
+  display: block;
+  padding-top: 10px;
+  padding-left: 0px; }
+
+footer {
+  background-image: linear-gradient(blue, blueviolet);
+  margin: 0; }
+
+.footerList {
+  margin: 0 auto;
+  padding: 50px;
+  list-style: none;
+  text-align: center; }
+
+.rrssFooter {
+  list-style-type: square;
+  list-style-position: inside;
+  display: inline-block;
+  width: 15%; }
+
+.rrssFooter a:hover {
+  font-size: 20px;
+  transition: 1s; }
+
+.behance {
+  color: whitesmoke;
+  text-decoration: none;
+  font-weight: bold; }
+
+.ig {
+  color: whitesmoke;
+  text-decoration: none;
+  font-weight: bold; }
+
+.fb {
+  color: whitesmoke;
+  text-decoration: none;
+  font-weight: bold; }
+
+.titleHome {
+  color: black;
+  font-size: 90px;
+  font-weight: bold;
+  text-transform: none;
+  text-align: center;
+  margin-bottom: 20px;
+  padding: 30px 20px 0px 20px; }
+
+.text__Home {
+  color: black;
+  text-align: center;
+  margin-left: 50px;
+  margin-right: 50px;
+  font-size: 30px }
+
+#porta {
+  display: flex;
+  flex-direction: column;
+  padding: 2em;
+  padding-top: 50px; }
+
+.porta__Home {
+  text-align: center; }
+
+.porta__Home img:hover {
+  transform: scale(1.1, 1.1);
+  transition: 0.5s; }
+
+.contact__me {
+  text-align: center;
+  text-decoration-line: underline;
+  margin: 60px; }
+
+.contact__link h2 {
+  color: black; }
+
+.contact__link a:hover {
+  color: blueviolet;
+  font-size: 50px;
+  transition: 1s; }
+
+  #miCv{
+    display: flex;
+	flex-direction: row;
+	padding: 2em;
+}
+.sobreMi{
+    display: inline-block;
+    margin: 20px;  
+}
+.sobreMi article{
+    background-color: #f9f9f9;
+    border-style: solid;
+    line-height: 20px;
+	width: 500px;
+	height: 300px;
+	padding: 40px;
+}
+.habilidades{
+  margin:70px;
+}
+.habilidades h4{
+  text-align: center;
+  font-size: 40px;
+  justify-content: center;
+  letter-spacing: 0.1em;
+}
+.habilidades h3{
+  text-align: center;
+  margin-bottom: 10px;
+}

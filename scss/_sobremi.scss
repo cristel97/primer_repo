@@ -1,0 +1,16 @@
+#miCv{
+    display: flex;
+	flex-direction: row;
+	padding: 2em;
+}
+.sobreMi{
+    display: inline-block;
+    margin: 20px;  
+}
+.sobreMi article{
+    background-color: #f9f9f9;
+    border-style: solid;
+	width: 500px;
+	height: 300px;
+	padding: 40px;
+}
