@@ -1,42 +1,42 @@
-.titleHome{
-    color:black;
-    font-size: 90px;
+.titleHome {
+    color: black;
+    font-size: 60px;
     font-weight: bold;
     text-transform: none;
     text-align: center;
     margin-bottom: 20px;
-    padding: 30px 20px 0px 20px;
-}
-.text__Home {
+    padding: 30px 60px 0px 60px; }
+  
+  .text__Home {
     color: black;
     text-align: center;
     margin-left: 50px;
     margin-right: 50px;
-}
-#porta{
+    font-size: 30px }
+  
+  #porta {
     display: flex;
-	flex-direction: column;
-	padding: 2em;
-    padding-top: 50px;
-}
-.porta__Home{
-    text-align: center;
-}
-.porta__Home img:hover{
-    transform: scale(1.1,1.1);
-    transition: 0.5s;
-}
-
-.contact__me{
+    flex-direction: column;
+    padding: 2em;
+    padding-top: 50px; }
+  
+  .porta__Home {
+    text-align: center; }
+  
+  .porta__Home img:hover {
+    transform: scale(1.1, 1.1);
+    transition: 0.5s; }
+  
+  .contact__me {
     text-align: center;
     text-decoration-line: underline;
-    margin: 60px;
-}
-.contact__link h2{
-    color: black;
-}
-.contact__link a:hover{
+    margin: 60px; }
+  
+  .contact__link h2 {
+    color: black; }
+  
+  .contact__link a:hover {
     color: blueviolet;
     font-size: 50px;
-    transition: 1s;
-}
+    transition: 1s; }
+  
