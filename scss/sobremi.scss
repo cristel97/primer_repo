@@ -1,0 +1,105 @@
+//SOBRE MI
+.aboutMe{
+    padding-top: 90px;
+    background-image: url(/Users/cristeltapia/Desktop/git/primerRepositorio/img/TEXUTRE.jpeg);
+    background-size: cover;
+    padding-bottom: 30px;
+    height: 40vh;
+    text-align: center;
+    border-bottom: solid black 1px;
+    & .aboutMe__text{
+        padding-left: 200px;
+        padding-right: 200px;
+    }
+}
+
+#miCv{
+    display: flex;
+    overflow: auto;
+    place-items: center;
+    flex-direction: column;
+    align-content: space-evenly;
+    justify-content: space-around;
+    align-items: center;
+}
+.sobreMi{
+    display: inline-block;
+    margin: 20px;
+    & article {
+        background-color: #f9f9f9;
+        border: solid black 1px;
+        width: 500px;
+        height: 50vh;
+        padding: 30px;
+        & h4 {
+            font-size: 1em;
+            font-weight: 700;
+        }
+    } 
+}
+.habilidades{
+    margin:70px;
+    & h4{
+        text-align: center;
+        font-size: 40px;
+        justify-content: center;
+        letter-spacing: 0.1em;
+        font-weight: 900
+    }
+    & h3{
+        text-align: center;
+        margin-bottom: 10px;  
+    }
+}
+//RESPONSIVE
+@media (max-width: 836px) and (min-width: 630px){
+    .aboutMe{
+        height: 50vh;
+        .aboutMe__text{
+            padding-left: 100px;
+            padding-right: 100px;
+        }
+    }
+    #miCV.sobreMi{
+        width: 50vw;
+    }
+}
+@media (max-width: 629px) and (min-width: 440px){
+    .aboutMe{
+        height: 55vh;
+        .aboutMe__text{
+            padding-left: 50px;
+            padding-right: 50px;
+        }
+    }
+    #miCV.sobreMi{
+        width: 50vw;
+    }
+    .sobreMi{
+        article{
+        width: 300px;
+        height: auto;
+        }
+    }
+}
+@media (max-width: 439px) and (min-width: 0px){
+    .aboutMe{
+        height: 70vh;
+        .aboutMe__text{
+            padding-left: 50px;
+            padding-right: 50px;
+        }
+    }
+    #miCV.sobreMi{
+        width: 50vw;
+    }
+    .sobreMi{
+        article{
+        width: 200px;
+        height: auto;
+        }
+    }
+    .habilidades h4{
+        font-size: 30px;
+    }
+}

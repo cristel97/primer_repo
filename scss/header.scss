@@ -1,0 +1,80 @@
+//HEADER
+$coloresHeader: white;
+
+header {
+    display: flex;
+    background-color: black;
+    align-items: center;
+    justify-content: space-between;
+    height: 7vh;
+    padding: 12px;
+    position: fixed;
+    width: 100%;
+    nav{
+        margin-right: n 20px;
+    } 
+    .nav__logo {
+        font-size: 1em;
+        font-weight: bold;
+        color:$coloresHeader;
+        padding: 0 50px 0 50px;
+        text-decoration: none;
+    }
+    .nav__ul {
+        margin: 0;
+        z-index: 60;
+        padding-left: 0;
+        font-size: .8em;
+        display: flex;
+        list-style: none;
+        color: $coloresHeader;
+        padding: 0;
+        ul{
+            position: absolute;
+            display: none;
+            li{
+                font-size: 1em;
+                display: block;
+                padding: 10px;
+                background-color: black;
+                margin-left: -5px;
+            li :hover{
+                background-color: black;
+                color: $coloresHeader;
+                transition: 0.1s;
+            }
+            }
+        }
+    } 
+        .nav__li{
+            padding: 10px;
+            transition: 0.3s;
+            text-decoration-style: over;
+            a{
+                text-decoration: none;
+                color: $coloresHeader;
+            }
+            }
+    a:link{
+        text-decoration: none;
+    }
+    a:hover{
+        color: greenyellow;
+    }
+    ul.nav__ul li:hover ul{
+        display: block;
+        padding-top: 10px;
+        padding-left: 0px;
+    }
+}
+@media (max-width: 500px) and (min-width: 0px){
+    header{
+        display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: space-between;
+		height: 5vh;
+		padding-bottom: 60px;
+      }   
+}
+

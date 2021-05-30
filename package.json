@@ -1,18 +1,25 @@
 {
-  "name": "yes",
+  "name": "primerrepositorio",
   "version": "1.0.0",
+  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build-css": "node-sass --include-path scss scss/estiloSASS.scss css/estilo.css",
+    "build-css": "node-sass --include-path scss scss/estilo.scss css/estilo.css",
     "watch-css": "nodemon -e scss -x \"npm run build-css\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cristel97/primer_repo.git"
   },
   "author": "",
   "license": "ISC",
-  "devDependencies": {
-    "node-sass": "^5.0.0",
-    "nodemon": "^2.0.7"
+  "bugs": {
+    "url": "https://github.com/cristel97/primer_repo/issues"
   },
-  "dependencies": {},
-  "description": ""
+  "homepage": "https://github.com/cristel97/primer_repo#readme",
+  "devDependencies": {
+    "node-sass": "^6.0.0",
+    "nodemon": "^2.0.7"
+  }
 }

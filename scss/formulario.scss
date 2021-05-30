@@ -1,0 +1,213 @@
+/*CONTACTAME*/
+$coloresTextos: black;
+
+.formulario{
+    padding-bottom: 50px;
+    padding-top:2em;
+    justify-content: center;
+  }
+.contactForm{
+    height: $altura-contacto;
+    padding: 70px 400px 50px 400px;
+    background-image: url("/Users/cristeltapia/Desktop/git/primerRepositorio/img/texture.jpeg");
+    background-position: center;
+    text-align: center;
+    color: $coloresTextos;
+    font-size: 1em;
+    border-bottom: solid black 1px;
+        & h1{
+        font-size: 1.2em;
+        font-weight: bold;
+        text-transform: none;
+        margin-bottom: 8px;
+        }
+  }
+  
+  input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
+    color: white;
+    font-size: 0.875em;
+  }
+  
+  input:focus::-webkit-input-placeholder, textarea:focus::-webkit-input-placeholder {
+    color: white;
+  }
+  
+  input::-moz-placeholder, textarea::-moz-placeholder {
+    color:$coloresTextos;
+    font-size: 0.875em;
+  }
+  
+  input:focus::-moz-placeholder, textarea:focus::-moz-placeholder {
+    color: $coloresTextos;
+  }
+  
+  input::placeholder, textarea::placeholder {
+    color: $coloresTextos;
+    font-size: 0.875em;
+  }
+  
+  input:focus::placeholder, textarea::focus:placeholder {
+    color: $coloresTextos;
+  }
+  
+  input::-ms-placeholder, textarea::-ms-placeholder {
+    color: $coloresTextos;
+    font-size: 0.875em;
+  }
+  
+  input:focus::-ms-placeholder, textarea:focus::-ms-placeholder {
+    color: $coloresTextos;
+  }
+  
+  /* hover */
+  
+  input:hover::-webkit-input-placeholder, textarea:hover::-webkit-input-placeholder {
+    color: greenyellow;
+    font-size: 0.875em;
+  }
+  
+  input:hover:focus::-webkit-input-placeholder, textarea:hover:focus::-webkit-input-placeholder {
+    color: greenyellow;
+  }
+  
+  input:hover::-moz-placeholder, textarea:hover::-moz-placeholder {
+    color: greenyellow;
+    font-size: 0.875em;
+  }
+  
+  input:hover:focus::-moz-placeholder, textarea:hover:focus::-moz-placeholder {
+    color: greenyellow;
+  }
+  
+  input:hover::placeholder, textarea:hover::placeholder {
+    color: greenyellow;
+    font-size: 0.875em;
+  }
+  
+  input:hover:focus::placeholder, textarea:hover:focus::placeholder {
+    color: greenyellow;
+  }
+  
+  input:hover::placeholder, textarea:hover::placeholder {
+    color: greenyellow;
+    font-size: 0.875em;
+  }
+  
+  input:hover:focus::-ms-placeholder, textarea:hover::focus:-ms-placeholder {
+    color: greenyellow;
+  }
+  
+  #form {
+    position: relative;
+    width: 500px;
+    margin: 50px auto 100px auto;
+  }
+  
+  input {
+    font-size: 0.875em;
+    width: 470px;
+    height: 50px;
+    padding: 0px 15px 0px 15px;
+    
+    background: transparent;
+    outline: none;
+    color: $coloresTextos;
+    
+    border: solid 1px black;
+    border-bottom: none;
+    
+    transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+  }
+  
+  input:hover {
+    background: greenyellow;
+    color: $coloresTextos;
+  }
+  
+  textarea {
+    width: 470px;
+    max-width: 470px;
+    height: 110px;
+    max-height: 110px;
+    padding: 15px;
+    background: transparent;
+    outline: none;
+    color: $coloresTextos;
+    font-size: 0.875em;
+    border: solid 1px black;
+    transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+  }
+  
+  textarea:hover {
+    background: greenyellow;
+    color: $coloresTextos;
+  }
+  
+  #submit {
+    padding: 0;
+    margin: -5px 0px 0px 0px;
+    font-size: 0.875em;
+    color: $coloresTextos;
+    outline:none;
+    cursor: pointer;
+    border: solid 1px black;
+    border-top: none;
+  }
+  #submit:hover {
+    color: $coloresTextos;
+  }
+ 
+//RESPONSIVE CONTACTO
+@media (max-width: 1200px) and (min-width: 920px){
+    .contactForm{
+      padding: 70px 200px 50px 200px;
+    }
+}
+@media (max-width: 919px) and (min-width: 650px){
+  .contactForm{
+    height: 50vh;
+    padding: 70px 100px 50px 100px;
+  }
+}
+@media (max-width: 649px) and (min-width: 420px){
+  .contactForm{
+    height: 65vh;
+    padding: 70px 70px 50px 70px;
+  }
+  #form{
+    width: 50vw;
+    #name, #email, fieldset, #message, #submit{
+      width: 250px;
+    }
+  }
+}
+@media (max-width: 419px) and (min-width: 330px){
+  .contactForm{
+    height: 70vh;
+    padding: 70px 40px 50px 40px;
+  }
+  #form{
+    width: 50vw;
+    #name, #email, fieldset, #message, #submit{
+      width: 200px;
+    }
+  }
+}
+@media (max-width: 329px) and (min-width: 0px){
+  .contactForm{
+    height: 80vh;
+    padding: 70px 40px 50px 40px;
+  }
+  #form{
+    width: 50vw;
+    #name, #email, fieldset, #message, #submit{
+      width: 200px;
+    }
+  }
+}

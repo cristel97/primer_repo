@@ -1,0 +1,111 @@
+//INDEX
+$coloresTextos: black;
+
+.home{
+    color: $coloresTextos;
+    background-image: url("/Users/cristeltapia/Desktop/git/primerRepositorio/img/texture.jpeg");
+    background-position: center;
+    padding-bottom: 50px;
+    height: $altura-home;
+    text-align: center;
+    border-bottom: solid black 1px;
+    &__text {
+        margin-left: 50px;
+        margin-right: 50px;
+        font-size: 1em;
+        font-weight: bold; }
+    &__title {
+        font-size: 3em;
+        font-weight: lighter;
+        text-transform: none;
+        margin-bottom: 8px;
+        padding: 90px 300px 0px 300px; }
+}
+.porta__Home {
+    text-align: center;
+    padding-top: 70px;
+    display: inline-block;
+    flex-direction: column;
+    padding-top: 50px;
+    & img{
+        max-height: $imagenes-home;
+        max-width:50vh;
+    }
+    & img:hover{
+        transform: scale(1.1, 1.1);
+        transition: 0.5s;
+    }
+}
+.contact {
+    text-align: center;
+    margin: 60px;
+    &__link a{
+        color: $coloresTextos;
+        text-decoration: none;
+        font-weight: bold;
+    }
+    &__link a:hover{
+        color: greenyellow;
+        font-size: 1.1em;
+        transition: 0.5s;
+        text-decoration-style: none ;
+    }
+}
+@media (max-width: 1700px) and (min-width: 1025px){
+    .home{
+        .home__title{
+            padding: 90px 200px 0px 200px;
+        }
+    }
+    .porta__Home img{
+        width: 50vh;
+    }
+}
+@media (max-width: 1024px) and (min-width: 905px){
+    .home{
+        height: 29vh;
+    .home__title{
+        padding: 90px 100px 0px 100px;
+        font-size: 2em;
+    }
+}
+.porta__Home img{
+    width: 40vh;
+}
+}
+@media (max-width: 905px) and (min-width: 650px){
+    .home{
+        height: 45vh;
+    .home__title{
+        padding: 130px 100px 0px 100px;
+        font-size: 2em;
+    }
+}
+.porta__Home img{
+    width: 30vh;
+}
+}
+@media (max-width: 649px) and (min-width: 420px){
+    .home{
+        height: 48vh;
+    .home__title{
+        padding: 100px 80px 0px 80px;
+        font-size: 1.8em;
+    }
+}
+.porta__Home img{
+    width: 30vh;
+}
+}
+@media (max-width: 419px) and (min-width: 0px){
+    .home{
+        height: 54vh;
+    .home__title{
+        padding: 90px 40px 0px 40px;
+        font-size: 2em;
+    }
+}
+    .porta__Home img{
+        width: 40vh;
+    }
+} 

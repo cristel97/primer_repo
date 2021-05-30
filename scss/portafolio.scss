@@ -1,0 +1,32 @@
+//PORTAFOLIO
+@mixin rows (){
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    width: 100%;
+    margin-bottom: 50px;
+    .porta__title{
+        padding-top: 10px;
+    }
+}
+
+.porta {
+    display: flex;
+    overflow: auto;
+    padding-top: 100px;
+    padding-bottom: 50px;
+    place-items: center;
+    flex-direction: column;
+    align-content: space-evenly;
+    justify-content: space-around;
+    align-items: center;
+    & h2{
+        font-size: 1.5em;
+        font-weight: 700;
+        padding-top: 20px;
+    }
+}
+
+#UXUI, #branding, #digital{
+    @include rows;
+}
