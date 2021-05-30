@@ -54,7 +54,7 @@
 //RESPONSIVE
 @media (max-width: 836px) and (min-width: 630px){
     .aboutMe{
-        height: 50vh;
+        height: 30vh;
         .aboutMe__text{
             padding-left: 100px;
             padding-right: 100px;
@@ -82,12 +82,12 @@
         }
     }
 }
-@media (max-width: 439px) and (min-width: 0px){
+@media (max-width: 439px) and (min-width: 321px){
     .aboutMe{
-        height: 70vh;
+        height: 55vh;
         .aboutMe__text{
-            padding-left: 50px;
-            padding-right: 50px;
+            padding-left: 40px;
+            padding-right: 40px;
         }
     }
     #miCV.sobreMi{
@@ -95,7 +95,31 @@
     }
     .sobreMi{
         article{
-        width: 200px;
+        width: 300px;
+        height: auto;
+        }
+    }
+    .habilidades{
+        margin: 40px;
+    & h4{
+        font-size: 30px;
+    }
+} 
+}
+@media (max-width: 319px) and (min-width: 0px){
+    .aboutMe{
+        height: 50vh;
+        .aboutMe__text{
+            padding-left: 40px;
+            padding-right: 40px;
+        }
+    }
+    #miCV.sobreMi{
+        width: 50vw;
+    }
+    .sobreMi{
+        article{
+        width: 300px;
         height: auto;
         }
     }
