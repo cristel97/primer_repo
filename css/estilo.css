@@ -103,7 +103,7 @@ footer {
 
 .home {
   color: black;
-  background-image: url("/Users/cristeltapia/Desktop/git/primerRepositorio/img/texture.jpeg");
+  background-image: url(texture.jpeg);
   background-position: center;
   padding-bottom: 50px;
   height: 55vh;
@@ -198,7 +198,7 @@ footer {
 .contactForm {
   height: 40vh;
   padding: 70px 400px 50px 400px;
-  background-image: url("/Users/cristeltapia/Desktop/git/primerRepositorio/img/texture.jpeg");
+  background-image: url(texture.jpeg);
   background-position: center;
   text-align: center;
   color: black;
@@ -386,7 +386,7 @@ textarea:hover {
 
 .aboutMe {
   padding-top: 90px;
-  background-image: url(/Users/cristeltapia/Desktop/git/primerRepositorio/img/TEXUTRE.jpeg);
+  background-image: url(TEXUTRE.jpeg);
   background-size: cover;
   padding-bottom: 30px;
   height: 40vh;
