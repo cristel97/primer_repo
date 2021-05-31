@@ -6,7 +6,6 @@ $coloresTextos: black;
     background-image: url(texture.jpeg);
     background-position: center;
     padding-bottom: 50px;
-    height: $altura-home;
     text-align: center;
     border-bottom: solid black 1px;
     &__text {
@@ -51,6 +50,7 @@ $coloresTextos: black;
         text-decoration-style: none ;
     }
 }
+//RESPONSIVE
 @media (max-width: 1700px) and (min-width: 1025px){
     .home{
         .home__title{
@@ -63,7 +63,6 @@ $coloresTextos: black;
 }
 @media (max-width: 1024px) and (min-width: 905px){
     .home{
-        height: 28vh;
     .home__title{
         padding: 90px 100px 0px 100px;
         font-size: 2em;
@@ -75,7 +74,6 @@ $coloresTextos: black;
 }
 @media (max-width: 905px) and (min-width: 650px){
     .home{
-        height: 45vh;
     .home__title{
         padding: 130px 100px 0px 100px;
         font-size: 2em;
@@ -87,7 +85,6 @@ $coloresTextos: black;
 }
 @media (max-width: 649px) and (min-width: 420px){
     .home{
-        height: 48vh;
     .home__title{
         padding: 100px 80px 0px 80px;
         font-size: 1.8em;
@@ -99,7 +96,6 @@ $coloresTextos: black;
 }
 @media (max-width: 419px) and (min-width: 0px){
     .home{
-        height: 50vh;
     .home__title{
         padding: 90px 40px 0px 40px;
         font-size: 2em;

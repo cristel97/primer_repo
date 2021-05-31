@@ -7,7 +7,6 @@ $coloresTextos: black;
     justify-content: center;
   }
 .contactForm{
-    height: $altura-contacto;
     padding: 70px 400px 50px 400px;
     background-image: url(texture.jpeg);
     background-position: center;
@@ -171,13 +170,11 @@ $coloresTextos: black;
 }
 @media (max-width: 919px) and (min-width: 650px){
   .contactForm{
-    height: 50vh;
     padding: 70px 100px 50px 100px;
   }
 }
 @media (max-width: 649px) and (min-width: 420px){
   .contactForm{
-    height: 65vh;
     padding: 70px 70px 50px 70px;
   }
   #form{
@@ -189,7 +186,6 @@ $coloresTextos: black;
 }
 @media (max-width: 419px) and (min-width: 330px){
   .contactForm{
-    height: 60vh;
     padding: 70px 40px 50px 40px;
   }
   #form{
@@ -201,7 +197,6 @@ $coloresTextos: black;
 }
 @media (max-width: 329px) and (min-width: 0px){
   .contactForm{
-    height: 80vh;
     padding: 70px 40px 50px 40px;
   }
   #form{

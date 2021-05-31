@@ -4,7 +4,6 @@
     background-image: url(TEXUTRE.jpeg);
     background-size: cover;
     padding-bottom: 30px;
-    height: 40vh;
     text-align: center;
     border-bottom: solid black 1px;
     & .aboutMe__text{
@@ -54,7 +53,6 @@
 //RESPONSIVE
 @media (max-width: 836px) and (min-width: 630px){
     .aboutMe{
-        height: 30vh;
         .aboutMe__text{
             padding-left: 100px;
             padding-right: 100px;
@@ -66,7 +64,6 @@
 }
 @media (max-width: 629px) and (min-width: 440px){
     .aboutMe{
-        height: 55vh;
         .aboutMe__text{
             padding-left: 50px;
             padding-right: 50px;
@@ -84,7 +81,6 @@
 }
 @media (max-width: 439px) and (min-width: 321px){
     .aboutMe{
-        height: 55vh;
         .aboutMe__text{
             padding-left: 40px;
             padding-right: 40px;
@@ -108,7 +104,6 @@
 }
 @media (max-width: 319px) and (min-width: 0px){
     .aboutMe{
-        height: 50vh;
         .aboutMe__text{
             padding-left: 40px;
             padding-right: 40px;
