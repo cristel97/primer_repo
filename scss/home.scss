@@ -22,10 +22,12 @@ $coloresTextos: black;
 }
 .porta__Home {
     text-align: center;
-    padding-top: 70px;
+    padding-right: 10vw;
+    padding-left: 10vw;
+    padding-top: 5vw;
+    padding-bottom: 5vw;
     display: inline-block;
     flex-direction: column;
-    padding-top: 50px;
     & img{
         max-height: $imagenes-home;
         max-width:50vh;

@@ -122,10 +122,12 @@ footer {
 
 .porta__Home {
   text-align: center;
-  padding-top: 70px;
+  padding-right: 10vw;
+  padding-left: 10vw;
+  padding-top: 5vw;
+  padding-bottom: 5vw;
   display: inline-block;
-  flex-direction: column;
-  padding-top: 50px; }
+  flex-direction: column; }
   .porta__Home img {
     max-height: 70vh;
     max-width: 50vh; }
