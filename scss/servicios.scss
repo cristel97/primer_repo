@@ -24,10 +24,6 @@
     }
 }
 
-.service-1 article, .service-2 article{
+.service-1 article, .service-2 article, .service-3 article{
     @include service();
-}
-.service-3 article{
-    @include service ();
-    border-bottom: none;
 }
