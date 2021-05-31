@@ -492,6 +492,9 @@ textarea:hover {
   background-color: #fefbf7;
   margin: 0; }
 
+.carousel-caption {
+  top: 20px; }
+
 @media (max-width: 3000px) and (min-width: 1281px) {
   .w-100 {
     height: 40vh; }
@@ -510,14 +513,14 @@ textarea:hover {
   .d-none {
     display: block !important; } }
 
-@media (max-width: 468px) and (min-width: 320px) {
+@media (max-width: 468px) and (min-width: 327px) {
   .w-100 {
-    height: 100vh; }
+    height: 70vh; }
   .d-none {
     display: block !important; } }
 
-@media (max-width: 319px) and (min-width: 0px) {
+@media (max-width: 326px) and (min-width: 227px) {
   .w-100 {
-    height: 120vh; }
+    height: 90vh; }
   .d-none {
     display: block !important; } }
