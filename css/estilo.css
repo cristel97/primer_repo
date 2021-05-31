@@ -484,6 +484,14 @@ textarea:hover {
 .w-100 {
   height: 40vh; }
 
+.testimoniesTitle {
+  font-weight: 700;
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 20px;
+  background-color: #fefbf7;
+  margin: 0; }
+
 @media (max-width: 768px) and (min-width: 469px) {
   .w-100 {
     height: 60vh; }
